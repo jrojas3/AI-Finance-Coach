@@ -14,7 +14,7 @@ Fit AI Coach is a Python application that helps users track their fitness progre
 2. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
-1. Run the application: `python app.py`
+1. Run the application: `streamlit run app.py`
 2. Follow the on-screen instructions to track your workouts and receive coaching.
 
 ## Contributing
