@@ -90,7 +90,7 @@ f"Monthly Expenses: {monthly_expenses}, "+\
 f"Current Debt: {current_debt}, "+\
 f"Bad Money Habits: {bad_money_habits}, "+\
 f"Financial Goals: {financial_goals}. "+\
-f"Develop a comprehensive financial plan tailored to an individuals specific financial situation. Consider their current income, existing debts, and the cost of living in their country. Provide a clear breakdown of the financial plan, including detailed timelines, interest rates, and all available financial data. Ensure that any recommended items are accessible within the users local region. Conclude with separate sections for the Financial Plan and Recommendations, demarcated by --- for easy reference"
+f"Develop a comprehensive financial plan tailored to an individuals specific financial situation. Consider their current income, existing debts, and the cost of living in their country. Provide a clear breakdown of the financial plan, including detailed timelines, interest rates, and all available financial data. Ensure that any recommended items are accessible within the users local region. Also include a 5 year projection. Conclude with separate sections for the Financial Plan and Recommendations, demarcated by --- for easy reference"
 
 if st.button("Generate Financial Plan"):
     response = model.generate_content(prompt)
