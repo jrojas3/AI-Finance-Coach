@@ -10,7 +10,7 @@ Fit AI Coach is a Python application that helps users track their fitness progre
 - Generate reports and visualizations of fitness data
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/fit-ai-coach.git`
+1. Clone the repository: `git clone [https://github.com/your-username/fit-ai-coach.git](https://github.com/josephgitau/AI-Finance-Coach.git)`
 2. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
