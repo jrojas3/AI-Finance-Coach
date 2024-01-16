@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # Gemini and Streamlit Configuration
-genai.configure(api_key="AIzaSyCbX7ZZL1BAHan56G4DAgex6qnYwxeOLno")
+genai.configure(api_key=st.secrets["api_key"])
 
 st.set_page_config(page_icon="💸", page_title="AI Finance Coach", layout='centered')
 
